@@ -1,0 +1,1 @@
+/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_typesupport_fastrtps_c/robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h

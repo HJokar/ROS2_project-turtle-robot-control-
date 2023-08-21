@@ -1,0 +1,1 @@
+/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/detail/turtle_array__traits.hpp

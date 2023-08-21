@@ -1,0 +1,18 @@
+[5.235s] Invoking command in '/home/heybat/Desktop/miniproject/build/turtle_project': PYTHONPATH=/home/heybat/Desktop/miniproject/build/turtle_project/prefix_override:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/heybat/Desktop/miniproject/build/turtle_project/build --no-deps install_data
+[7.681s] running develop
+[9.003s] running egg_info
+[9.004s] writing turtle_project.egg-info/PKG-INFO
+[9.005s] writing dependency_links to turtle_project.egg-info/dependency_links.txt
+[9.006s] writing entry points to turtle_project.egg-info/entry_points.txt
+[9.007s] writing requirements to turtle_project.egg-info/requires.txt
+[9.008s] writing top-level names to turtle_project.egg-info/top_level.txt
+[9.022s] reading manifest file 'turtle_project.egg-info/SOURCES.txt'
+[9.029s] writing manifest file 'turtle_project.egg-info/SOURCES.txt'
+[9.039s] running build_ext
+[9.041s] Creating /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle-project.egg-link (link to .)
+[9.044s] Installing turtle_controller script to /home/heybat/Desktop/miniproject/install/turtle_project/lib/turtle_project
+[9.048s] Installing turtle_spawner_node script to /home/heybat/Desktop/miniproject/install/turtle_project/lib/turtle_project
+[9.050s] 
+[9.052s] Installed /home/heybat/Desktop/miniproject/build/turtle_project
+[9.057s] running install_data
+[9.296s] Invoked command in '/home/heybat/Desktop/miniproject/build/turtle_project' returned '0': PYTHONPATH=/home/heybat/Desktop/miniproject/build/turtle_project/prefix_override:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/heybat/Desktop/miniproject/build/turtle_project/build --no-deps install_data

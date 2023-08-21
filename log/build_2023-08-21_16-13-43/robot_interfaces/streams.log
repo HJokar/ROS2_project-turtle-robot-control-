@@ -1,0 +1,208 @@
+[0.078s] Invoking command in '/home/heybat/Desktop/miniproject/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake /home/heybat/Desktop/miniproject/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/heybat/Desktop/miniproject/install/robot_interfaces
+[0.146s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.902s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.960s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.979s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.980s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.644s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.945s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.236s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.364s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.389s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.533s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.533s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.534s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.534s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.653s] -- Found PythonExtra: .so  
+[5.945s] -- Configuring done
+[6.174s] -- Generating done
+[6.195s] -- Build files have been written to: /home/heybat/Desktop/miniproject/build/robot_interfaces
+[6.225s] Invoked command in '/home/heybat/Desktop/miniproject/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake /home/heybat/Desktop/miniproject/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/heybat/Desktop/miniproject/install/robot_interfaces
+[6.236s] Invoking command in '/home/heybat/Desktop/miniproject/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake --build /home/heybat/Desktop/miniproject/build/robot_interfaces -- -j4 -l4
+[6.423s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.468s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.515s] [  5%] Built target ament_cmake_python_symlink_robot_interfaces
+[8.463s] [  5%] Built target robot_interfaces__cpp
+[8.541s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.625s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.759s] [ 12%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/turtle__functions.c.o[0m
+[8.769s] running egg_info
+[8.770s] creating robot_interfaces.egg-info
+[8.773s] writing robot_interfaces.egg-info/PKG-INFO
+[8.776s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[8.779s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[8.782s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[8.836s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[8.847s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[9.091s] [ 12%] Built target ament_cmake_python_build_robot_interfaces_egg
+[9.177s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.317s] [ 17%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__functions.c.o[0m
+[9.658s] [ 20%] [32m[1mLinking C shared library librobot_interfaces__rosidl_generator_c.so[0m
+[10.096s] [ 20%] Built target robot_interfaces__rosidl_generator_c
+[10.152s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.574s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/turtle__type_support.cpp.o[0m
+[10.752s] [ 28%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/dds_fastrtps/turtle__type_support.cpp.o[0m
+[10.915s] [ 30%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/msg/turtle__type_support.cpp.o[0m
+[12.302s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/msg/detail/turtle__type_support_c.cpp.o[0m
+[12.757s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/msg/turtle_array__type_support.cpp.o[0m
+[13.675s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/turtle_array__type_support.cpp.o[0m
+[13.849s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o[0m
+[14.680s] [ 43%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/msg/detail/turtle_array__type_support_c.cpp.o[0m
+[14.787s] [ 46%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so[0m
+[15.056s] [ 46%] Built target robot_interfaces__rosidl_typesupport_cpp
+[15.127s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[16.799s] [ 51%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[17.255s] [ 53%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/msg/detail/turtle__type_support.c.o[0m
+[17.275s] [ 56%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[17.316s] [ 58%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[17.317s] [ 58%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[17.360s] [ 61%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/msg/detail/turtle_array__type_support.c.o[0m
+[17.588s] [ 64%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.719s] [ 66%] [32m[1mLinking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[17.806s] [ 66%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[17.821s] [ 66%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[17.942s] [ 66%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[18.873s] [ 69%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/msg/turtle__type_support.cpp.o[0m
+[18.878s] [ 71%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/msg/turtle_array__type_support.cpp.o[0m
+[19.040s] [ 74%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_c.so[0m
+[19.293s] [ 74%] Built target robot_interfaces__rosidl_typesupport_c
+[19.388s] [ 74%] Built target robot_interfaces
+[19.492s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[21.256s] [ 76%] Built target robot_interfaces__py
+[21.354s] [ 79%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/msg/_turtle_s.c.o[0m
+[21.360s] [ 82%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/msg/_turtle_array_s.c.o[0m
+[22.117s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/librobot_interfaces__rosidl_generator_py.so[0m
+[22.340s] [ 84%] Built target robot_interfaces__rosidl_generator_py
+[22.446s] [ 87%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[22.449s] [ 89%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[22.459s] [ 92%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[22.963s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[22.992s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[23.033s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[23.188s] [100%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[23.222s] [100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[23.260s] [100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[23.315s] Invoked command in '/home/heybat/Desktop/miniproject/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake --build /home/heybat/Desktop/miniproject/build/robot_interfaces -- -j4 -l4
+[23.906s] Invoking command in '/home/heybat/Desktop/miniproject/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake --install /home/heybat/Desktop/miniproject/build/robot_interfaces
+[23.940s] -- Install configuration: ""
+[23.942s] -- Execute custom install script
+[23.945s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+[23.985s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__functions.h
+[24.025s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__struct.h
+[24.062s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__type_support.h
+[24.124s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__functions.h
+[24.161s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__struct.h
+[24.195s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__type_support.h
+[24.244s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[24.281s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/turtle.h
+[24.316s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/turtle_array.h
+[24.352s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+[24.404s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+[24.452s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h
+[24.485s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h
+[24.524s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.565s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h
+[24.615s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h
+[24.658s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[24.699s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__builder.hpp
+[24.738s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__struct.hpp
+[24.777s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__traits.hpp
+[24.833s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__builder.hpp
+[24.877s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__struct.hpp
+[24.910s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__traits.hpp
+[24.954s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/turtle.hpp
+[25.002s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/turtle_array.hpp
+[25.049s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[25.106s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp
+[25.146s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[25.187s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp
+[25.229s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp
+[25.269s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+[25.307s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+[25.346s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[25.381s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[25.413s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[25.450s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[25.564s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py
+[25.597s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[25.634s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[25.668s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[25.702s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so
+[25.742s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/__init__.py
+[25.786s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_turtle.py
+[25.828s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_turtle_array.py
+[25.865s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_turtle_array_s.c
+[25.919s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_turtle_s.c
+[25.955s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[25.988s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[26.031s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[26.074s] -- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[26.075s] -- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[26.077s] -- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[26.078s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/msg/Turtle.idl
+[26.123s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/msg/TurtleArray.idl
+[26.166s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/msg/Turtle.msg
+[26.208s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/msg/TurtleArray.msg
+[26.262s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[26.308s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[26.354s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[26.387s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[26.429s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[26.485s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[26.529s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[26.572s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[26.611s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[26.650s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[26.684s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/package.dsv
+[26.719s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[26.755s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[26.791s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.828s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[26.862s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[26.897s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.939s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.982s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.023s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[27.060s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[27.098s] -- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/package.xml
+[27.155s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+[27.166s] -- Set runtime path of "/home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""
+[27.167s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[27.172s] -- Set runtime path of "/home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[27.173s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+[27.176s] -- Set runtime path of "/home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[27.177s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+[27.180s] -- Set runtime path of "/home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""
+[27.181s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[27.185s] -- Set runtime path of "/home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[27.185s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[27.190s] -- Set runtime path of "/home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[27.191s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+[27.193s] -- Set runtime path of "/home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""
+[27.408s] Listing '/home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...
+[27.409s] Compiling '/home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py'...
+[27.411s] Listing '/home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg'...
+[27.412s] Compiling '/home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/__init__.py'...
+[27.413s] Compiling '/home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_turtle.py'...
+[27.414s] Compiling '/home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_turtle_array.py'...
+[27.437s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so
+[27.440s] -- Set runtime path of "/home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so" to ""
+[27.440s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake
+[27.442s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[27.444s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[27.446s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[27.449s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[27.450s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.453s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+[27.454s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[27.457s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake
+[27.458s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.466s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[27.473s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[27.475s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.477s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+[27.479s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[27.481s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake
+[27.483s] -- Installing: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[27.494s] Invoked command in '/home/heybat/Desktop/miniproject/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake --install /home/heybat/Desktop/miniproject/build/robot_interfaces

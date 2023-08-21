@@ -1,0 +1,56 @@
+[4.097s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/heybat/Desktop/miniproject']
+[4.108s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/heybat/Desktop/miniproject'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9aac82b0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffff9aaca800>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffff9aaca800>>)
+[4.899s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.900s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.901s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/heybat/Desktop/miniproject'
+[4.902s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject) by extensions ['ignore', 'ignore_ament_install']
+[4.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject) by extension 'ignore'
+[4.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject) by extension 'ignore_ament_install'
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject) by extensions ['colcon_pkg']
+[4.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject) by extension 'colcon_pkg'
+[4.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject) by extensions ['colcon_meta']
+[4.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject) by extension 'colcon_meta'
+[4.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject) by extensions ['ros']
+[4.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject) by extension 'ros'
+[5.007s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject) by extensions ['cmake', 'python']
+[5.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject) by extension 'cmake'
+[5.008s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject) by extension 'python'
+[5.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject) by extensions ['python_setup_py']
+[5.009s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject) by extension 'python_setup_py'
+[5.011s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/build) by extensions ['ignore', 'ignore_ament_install']
+[5.012s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/build) by extension 'ignore'
+[5.013s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/build) ignored
+[5.014s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/install) by extensions ['ignore', 'ignore_ament_install']
+[5.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/install) by extension 'ignore'
+[5.036s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/install) ignored
+[5.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/log) by extensions ['ignore', 'ignore_ament_install']
+[5.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/log) by extension 'ignore'
+[5.039s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/log) ignored
+[5.040s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src) by extensions ['ignore', 'ignore_ament_install']
+[5.041s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src) by extension 'ignore'
+[5.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src) by extension 'ignore_ament_install'
+[5.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src) by extensions ['colcon_pkg']
+[5.044s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src) by extension 'colcon_pkg'
+[5.044s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src) by extensions ['colcon_meta']
+[5.045s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src) by extension 'colcon_meta'
+[5.045s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src) by extensions ['ros']
+[5.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src) by extension 'ros'
+[5.046s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src) by extensions ['cmake', 'python']
+[5.047s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src) by extension 'cmake'
+[5.047s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src) by extension 'python'
+[5.052s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src) by extensions ['python_setup_py']
+[5.072s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src) by extension 'python_setup_py'
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src/turtle_project) by extensions ['ignore', 'ignore_ament_install']
+[5.081s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src/turtle_project) by extension 'ignore'
+[5.082s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src/turtle_project) by extension 'ignore_ament_install'
+[5.083s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src/turtle_project) by extensions ['colcon_pkg']
+[5.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src/turtle_project) by extension 'colcon_pkg'
+[5.085s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src/turtle_project) by extensions ['colcon_meta']
+[5.086s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src/turtle_project) by extension 'colcon_meta'
+[5.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src/turtle_project) by extensions ['ros']
+[5.087s] Level 1:colcon.colcon_core.package_identification:_identify(/home/heybat/Desktop/miniproject/src/turtle_project) by extension 'ros'
+[5.127s] DEBUG:colcon.colcon_core.package_identification:Package '/home/heybat/Desktop/miniproject/src/turtle_project' with type 'ros.ament_python' and name 'turtle_project'
+[5.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

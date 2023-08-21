@@ -1,0 +1,1 @@
+/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_c/robot_interfaces/msg/rosidl_generator_c__visibility_control.h

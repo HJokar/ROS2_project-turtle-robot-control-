@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.001426] (turtle_project) JobQueued: {'identifier': 'turtle_project', 'dependencies': OrderedDict()}
+[0.002030] (turtle_project) JobStarted: {'identifier': 'turtle_project'}
+[0.099155] (-) TimerEvent: {}
+[0.200123] (-) TimerEvent: {}
+[0.300870] (-) TimerEvent: {}
+[0.401954] (-) TimerEvent: {}
+[0.502754] (-) TimerEvent: {}
+[0.603836] (-) TimerEvent: {}
+[0.704501] (-) TimerEvent: {}
+[0.805245] (-) TimerEvent: {}
+[0.906388] (-) TimerEvent: {}
+[1.007193] (-) TimerEvent: {}
+[1.108633] (-) TimerEvent: {}
+[1.209705] (-) TimerEvent: {}
+[1.310386] (-) TimerEvent: {}
+[1.411092] (-) TimerEvent: {}
+[1.511789] (-) TimerEvent: {}
+[1.612667] (-) TimerEvent: {}
+[1.716259] (-) TimerEvent: {}
+[1.816999] (-) TimerEvent: {}
+[1.917847] (-) TimerEvent: {}
+[2.020217] (-) TimerEvent: {}
+[2.121676] (-) TimerEvent: {}
+[2.222682] (-) TimerEvent: {}
+[2.323432] (-) TimerEvent: {}
+[2.424141] (-) TimerEvent: {}
+[2.524997] (-) TimerEvent: {}
+[2.626334] (-) TimerEvent: {}
+[2.727171] (-) TimerEvent: {}
+[2.828045] (-) TimerEvent: {}
+[2.928864] (-) TimerEvent: {}
+[3.029637] (-) TimerEvent: {}
+[3.130556] (-) TimerEvent: {}
+[3.231484] (-) TimerEvent: {}
+[3.332214] (-) TimerEvent: {}
+[3.432969] (-) TimerEvent: {}
+[3.533779] (-) TimerEvent: {}
+[3.634655] (-) TimerEvent: {}
+[3.739230] (-) TimerEvent: {}
+[3.835141] (turtle_project) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/heybat/Desktop/miniproject/build/turtle_project/build', '--no-deps', 'install_data'], 'cwd': '/home/heybat/Desktop/miniproject/build/turtle_project', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'heybat', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/heybat', 'OLDPWD': '/home/heybat', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1182', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/heybat/Desktop/miniproject/install:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install:/home/heybat/Desktop/ros2_ws2/install:/home/heybat/Desktop/ws_ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'heybat', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'heybat', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/heybat-desktop:@/tmp/.ICE-unix/1162,unix/heybat-desktop:/tmp/.ICE-unix/1162', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/222cad60_1f52_41b3_87a9_c6db2b2041e8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZP6491', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.219', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/heybat/Desktop/miniproject/build/turtle_project', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/heybat/Desktop/miniproject/build/turtle_project/prefix_override:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:/home/heybat/Desktop/miniproject/build/turtle_project:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:/home/heybat/Desktop/ws_ros2/install/my_robot_controller/lib/python3.10/site-packages:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces/local/lib/python3.10/dist-packages:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/build/my_second_pkg:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg/lib/python3.10/site-packages:/home/heybat/Desktop/ros2_ws2/build/my_first_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces'}, 'shell': False}
+[3.841435] (-) TimerEvent: {}
+[3.942407] (-) TimerEvent: {}
+[4.043287] (-) TimerEvent: {}
+[4.144079] (-) TimerEvent: {}
+[4.245461] (-) TimerEvent: {}
+[4.346851] (-) TimerEvent: {}
+[4.447594] (-) TimerEvent: {}
+[4.548326] (-) TimerEvent: {}
+[4.649129] (-) TimerEvent: {}
+[4.749958] (-) TimerEvent: {}
+[4.850717] (-) TimerEvent: {}
+[4.951456] (-) TimerEvent: {}
+[5.052215] (-) TimerEvent: {}
+[5.153210] (-) TimerEvent: {}
+[5.254418] (-) TimerEvent: {}
+[5.355841] (-) TimerEvent: {}
+[5.436706] (turtle_project) StdoutLine: {'line': b'running develop\n'}
+[5.456037] (-) TimerEvent: {}
+[5.556873] (-) TimerEvent: {}
+[5.657751] (-) TimerEvent: {}
+[5.758633] (-) TimerEvent: {}
+[5.859392] (-) TimerEvent: {}
+[5.967028] (-) TimerEvent: {}
+[6.067779] (-) TimerEvent: {}
+[6.168791] (-) TimerEvent: {}
+[6.269594] (-) TimerEvent: {}
+[6.370344] (-) TimerEvent: {}
+[6.471077] (-) TimerEvent: {}
+[6.517422] (turtle_project) StdoutLine: {'line': b'running egg_info\n'}
+[6.518566] (turtle_project) StdoutLine: {'line': b'writing turtle_project.egg-info/PKG-INFO\n'}
+[6.519509] (turtle_project) StdoutLine: {'line': b'writing dependency_links to turtle_project.egg-info/dependency_links.txt\n'}
+[6.521866] (turtle_project) StdoutLine: {'line': b'writing entry points to turtle_project.egg-info/entry_points.txt\n'}
+[6.523152] (turtle_project) StdoutLine: {'line': b'writing requirements to turtle_project.egg-info/requires.txt\n'}
+[6.524746] (turtle_project) StdoutLine: {'line': b'writing top-level names to turtle_project.egg-info/top_level.txt\n'}
+[6.531091] (turtle_project) StdoutLine: {'line': b"reading manifest file 'turtle_project.egg-info/SOURCES.txt'\n"}
+[6.535670] (turtle_project) StdoutLine: {'line': b"writing manifest file 'turtle_project.egg-info/SOURCES.txt'\n"}
+[6.542259] (turtle_project) StdoutLine: {'line': b'running build_ext\n'}
+[6.543296] (turtle_project) StdoutLine: {'line': b'Creating /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle-project.egg-link (link to .)\n'}
+[6.546691] (turtle_project) StdoutLine: {'line': b'Installing turtle_controller script to /home/heybat/Desktop/miniproject/install/turtle_project/lib/turtle_project\n'}
+[6.547686] (turtle_project) StdoutLine: {'line': b'Installing turtle_spawner_node script to /home/heybat/Desktop/miniproject/install/turtle_project/lib/turtle_project\n'}
+[6.549027] (turtle_project) StdoutLine: {'line': b'\n'}
+[6.549613] (turtle_project) StdoutLine: {'line': b'Installed /home/heybat/Desktop/miniproject/build/turtle_project\n'}
+[6.550351] (turtle_project) StdoutLine: {'line': b'running install_data\n'}
+[6.550950] (turtle_project) StdoutLine: {'line': b'copying package.xml -> /home/heybat/Desktop/miniproject/install/turtle_project/share/turtle_project\n'}
+[6.571302] (-) TimerEvent: {}
+[6.672415] (-) TimerEvent: {}
+[6.744560] (turtle_project) CommandEnded: {'returncode': 0}
+[6.772597] (-) TimerEvent: {}
+[6.862171] (turtle_project) JobEnded: {'identifier': 'turtle_project', 'rc': 0}
+[6.865275] (-) EventReactorShutdown: {}

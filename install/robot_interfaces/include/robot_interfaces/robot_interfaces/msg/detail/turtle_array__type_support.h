@@ -1,0 +1,1 @@
+/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__type_support.h

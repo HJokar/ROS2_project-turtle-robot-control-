@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/turtle_project/turtle_project.egg-info
+writing ../../build/turtle_project/turtle_project.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_project/turtle_project.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_project/turtle_project.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_project/turtle_project.egg-info/requires.txt
+writing top-level names to ../../build/turtle_project/turtle_project.egg-info/top_level.txt
+writing manifest file '../../build/turtle_project/turtle_project.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle_project/turtle_project.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_project/turtle_project.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/heybat/Desktop/miniproject/build/turtle_project/build
+creating /home/heybat/Desktop/miniproject/build/turtle_project/build/lib
+creating /home/heybat/Desktop/miniproject/build/turtle_project/build/lib/turtle_project
+copying turtle_project/__init__.py -> /home/heybat/Desktop/miniproject/build/turtle_project/build/lib/turtle_project
+running install
+running install_lib
+creating /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project
+copying /home/heybat/Desktop/miniproject/build/turtle_project/build/lib/turtle_project/__init__.py -> /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project
+byte-compiling /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/heybat/Desktop/miniproject/install/turtle_project/share/ament_index
+creating /home/heybat/Desktop/miniproject/install/turtle_project/share/ament_index/resource_index
+creating /home/heybat/Desktop/miniproject/install/turtle_project/share/ament_index/resource_index/packages
+copying resource/turtle_project -> /home/heybat/Desktop/miniproject/install/turtle_project/share/ament_index/resource_index/packages
+copying package.xml -> /home/heybat/Desktop/miniproject/install/turtle_project/share/turtle_project
+running install_egg_info
+Copying ../../build/turtle_project/turtle_project.egg-info to /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/heybat/Desktop/miniproject/build/turtle_project/install.log'

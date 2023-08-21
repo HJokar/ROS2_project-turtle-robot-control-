@@ -1,0 +1,1 @@
+/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_py/robot_interfaces/msg/__init__.py

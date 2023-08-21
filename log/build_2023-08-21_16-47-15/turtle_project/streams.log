@@ -1,0 +1,37 @@
+[4.437s] Invoking command in '/home/heybat/Desktop/miniproject/build/turtle_project': PYTHONPATH=/home/heybat/Desktop/miniproject/build/turtle_project/prefix_override:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/heybat/Desktop/miniproject/build/turtle_project/build
+[6.207s] running develop
+[8.217s] Removing /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle-project.egg-link (link to .)
+[8.590s] Invoked command in '/home/heybat/Desktop/miniproject/build/turtle_project' returned '0': PYTHONPATH=/home/heybat/Desktop/miniproject/build/turtle_project/prefix_override:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/heybat/Desktop/miniproject/build/turtle_project/build
+[8.592s] Invoking command in '/home/heybat/Desktop/miniproject/src/turtle_project': PYTHONPATH=/home/heybat/Desktop/miniproject/build/turtle_project/prefix_override:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_project build --build-base /home/heybat/Desktop/miniproject/build/turtle_project/build install --record /home/heybat/Desktop/miniproject/build/turtle_project/install.log --single-version-externally-managed
+[11.423s] running egg_info
+[11.427s] writing ../../build/turtle_project/turtle_project.egg-info/PKG-INFO
+[11.429s] writing dependency_links to ../../build/turtle_project/turtle_project.egg-info/dependency_links.txt
+[11.431s] writing entry points to ../../build/turtle_project/turtle_project.egg-info/entry_points.txt
+[11.434s] writing requirements to ../../build/turtle_project/turtle_project.egg-info/requires.txt
+[11.435s] writing top-level names to ../../build/turtle_project/turtle_project.egg-info/top_level.txt
+[11.448s] reading manifest file '../../build/turtle_project/turtle_project.egg-info/SOURCES.txt'
+[11.455s] writing manifest file '../../build/turtle_project/turtle_project.egg-info/SOURCES.txt'
+[11.456s] running build
+[11.457s] running build_py
+[11.458s] copying turtle_project/turtle_spawner.py -> /home/heybat/Desktop/miniproject/build/turtle_project/build/lib/turtle_project
+[11.463s] running install
+[11.464s] running install_lib
+[11.468s] creating /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project
+[11.472s] copying /home/heybat/Desktop/miniproject/build/turtle_project/build/lib/turtle_project/turtle_spawner.py -> /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project
+[11.474s] copying /home/heybat/Desktop/miniproject/build/turtle_project/build/lib/turtle_project/__init__.py -> /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project
+[11.477s] copying /home/heybat/Desktop/miniproject/build/turtle_project/build/lib/turtle_project/template_python_node.py -> /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project
+[11.479s] copying /home/heybat/Desktop/miniproject/build/turtle_project/build/lib/turtle_project/turtle_controller.py -> /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project
+[11.484s] byte-compiling /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project/turtle_spawner.py to turtle_spawner.cpython-310.pyc
+[11.489s] /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project/turtle_spawner.py:59: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+[11.490s]   if response.name is not "":
+[11.493s] byte-compiling /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project/__init__.py to __init__.cpython-310.pyc
+[11.498s] byte-compiling /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project/template_python_node.py to template_python_node.cpython-310.pyc
+[11.504s] byte-compiling /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project/turtle_controller.py to turtle_controller.cpython-310.pyc
+[11.509s] running install_data
+[11.513s] running install_egg_info
+[11.529s] Copying ../../build/turtle_project/turtle_project.egg-info to /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project-0.0.0-py3.10.egg-info
+[11.550s] running install_scripts
+[11.665s] Installing turtle_controller script to /home/heybat/Desktop/miniproject/install/turtle_project/lib/turtle_project
+[11.667s] Installing turtle_spawner_node script to /home/heybat/Desktop/miniproject/install/turtle_project/lib/turtle_project
+[11.670s] writing list of installed files to '/home/heybat/Desktop/miniproject/build/turtle_project/install.log'
+[11.897s] Invoked command in '/home/heybat/Desktop/miniproject/src/turtle_project' returned '0': PYTHONPATH=/home/heybat/Desktop/miniproject/build/turtle_project/prefix_override:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_project build --build-base /home/heybat/Desktop/miniproject/build/turtle_project/build install --record /home/heybat/Desktop/miniproject/build/turtle_project/install.log --single-version-externally-managed

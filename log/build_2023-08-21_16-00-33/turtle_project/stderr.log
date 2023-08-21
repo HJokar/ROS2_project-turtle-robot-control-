@@ -1,0 +1,2 @@
+/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle_project/turtle_spawner.py:61: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if response.name is not "":

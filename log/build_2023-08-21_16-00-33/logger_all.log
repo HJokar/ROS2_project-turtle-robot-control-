@@ -1,0 +1,204 @@
+[3.728s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.729s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff88676cb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff88720640>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff88720640>>)
+[3.919s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.920s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.925s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.926s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/heybat/Desktop/miniproject'
+[3.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.928s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.931s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.945s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.085s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.086s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.087s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.088s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.089s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.090s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.096s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.102s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.107s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.108s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.109s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.112s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.113s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.114s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.117s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.119s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.120s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[4.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ignore'
+[4.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ignore_ament_install'
+[4.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['colcon_pkg']
+[4.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'colcon_pkg'
+[4.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['colcon_meta']
+[4.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'colcon_meta'
+[4.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['ros']
+[4.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ros'
+[4.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_interfaces' with type 'ros.ament_cmake' and name 'robot_interfaces'
+[4.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_project) by extensions ['ignore', 'ignore_ament_install']
+[4.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_project) by extension 'ignore'
+[4.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_project) by extension 'ignore_ament_install'
+[4.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_project) by extensions ['colcon_pkg']
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_project) by extension 'colcon_pkg'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_project) by extensions ['colcon_meta']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_project) by extension 'colcon_meta'
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_project) by extensions ['ros']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_project) by extension 'ros'
+[4.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_project' with type 'ros.ament_python' and name 'turtle_project'
+[4.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.450s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/heybat/Desktop/miniproject/install
+[4.457s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install
+[4.464s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/heybat/Desktop/ros2_ws2/install
+[4.471s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/heybat/Desktop/ws_ros2/install
+[4.484s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[4.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.106s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[5.108s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[5.109s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.110s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[5.111s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[5.111s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[5.112s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[5.113s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[5.114s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.115s] DEBUG:colcon.colcon_core.verb:Building package 'robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/heybat/Desktop/miniproject/build/robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/heybat/Desktop/miniproject/install/robot_interfaces', 'merge_install': False, 'path': '/home/heybat/Desktop/miniproject/src/robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[5.122s] Level 5:colcon.colcon_core.verb:set package 'turtle_project' build argument 'cmake_args' from command line to 'None'
+[5.123s] Level 5:colcon.colcon_core.verb:set package 'turtle_project' build argument 'cmake_target' from command line to 'None'
+[5.124s] Level 5:colcon.colcon_core.verb:set package 'turtle_project' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.125s] Level 5:colcon.colcon_core.verb:set package 'turtle_project' build argument 'cmake_clean_cache' from command line to 'False'
+[5.126s] Level 5:colcon.colcon_core.verb:set package 'turtle_project' build argument 'cmake_clean_first' from command line to 'False'
+[5.127s] Level 5:colcon.colcon_core.verb:set package 'turtle_project' build argument 'cmake_force_configure' from command line to 'False'
+[5.128s] Level 5:colcon.colcon_core.verb:set package 'turtle_project' build argument 'ament_cmake_args' from command line to 'None'
+[5.129s] Level 5:colcon.colcon_core.verb:set package 'turtle_project' build argument 'catkin_cmake_args' from command line to 'None'
+[5.130s] Level 5:colcon.colcon_core.verb:set package 'turtle_project' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.131s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_project' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/heybat/Desktop/miniproject/build/turtle_project', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/heybat/Desktop/miniproject/install/turtle_project', 'merge_install': False, 'path': '/home/heybat/Desktop/miniproject/src/turtle_project', 'symlink_install': False, 'test_result_base': None}
+[5.136s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.161s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/heybat/Desktop/miniproject/src/robot_interfaces' with build type 'ament_cmake'
+[5.162s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/heybat/Desktop/miniproject/src/robot_interfaces'
+[5.209s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.211s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.212s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.279s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/heybat/Desktop/miniproject/src/turtle_project' with build type 'ament_python'
+[5.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_project', 'ament_prefix_path')
+[5.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heybat/Desktop/miniproject/install/turtle_project/share/turtle_project/hook/ament_prefix_path.ps1'
+[5.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/heybat/Desktop/miniproject/install/turtle_project/share/turtle_project/hook/ament_prefix_path.dsv'
+[5.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heybat/Desktop/miniproject/install/turtle_project/share/turtle_project/hook/ament_prefix_path.sh'
+[5.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/heybat/Desktop/miniproject/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake --build /home/heybat/Desktop/miniproject/build/robot_interfaces -- -j4 -l4
+[8.541s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/heybat/Desktop/miniproject/src/turtle_project'
+[8.551s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.552s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/heybat/Desktop/miniproject/build/turtle_project': PYTHONPATH=/home/heybat/Desktop/miniproject/build/turtle_project/prefix_override:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/heybat/Desktop/miniproject/build/turtle_project/build
+[13.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/heybat/Desktop/miniproject/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake --build /home/heybat/Desktop/miniproject/build/robot_interfaces -- -j4 -l4
+[16.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/heybat/Desktop/miniproject/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake --install /home/heybat/Desktop/miniproject/build/robot_interfaces
+[17.624s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[17.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/heybat/Desktop/miniproject/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake --install /home/heybat/Desktop/miniproject/build/robot_interfaces
+[17.721s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/robot_interfaces' for CMake module files
+[17.728s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/robot_interfaces' for CMake config files
+[17.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[17.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[17.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[17.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[17.751s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/robot_interfaces/lib'
+[17.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[17.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[17.764s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[17.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[17.820s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/robot_interfaces/bin'
+[17.821s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[17.822s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/robot_interfaces/lib/python3.10/site-packages'
+[17.824s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/robot_interfaces/bin'
+[17.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[17.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[17.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/package.sh'
+[17.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/package.bash'
+[17.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[17.939s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/heybat/Desktop/miniproject/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[19.280s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[19.307s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/robot_interfaces' for CMake module files
+[19.324s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/robot_interfaces' for CMake config files
+[19.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[19.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[19.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[19.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[19.366s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/robot_interfaces/lib'
+[19.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[19.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[19.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[19.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[19.425s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/robot_interfaces/bin'
+[19.425s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[19.427s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/robot_interfaces/lib/python3.10/site-packages'
+[19.437s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/robot_interfaces/bin'
+[19.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[19.450s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[19.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/package.sh'
+[19.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/package.bash'
+[19.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[19.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/heybat/Desktop/miniproject/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[20.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/heybat/Desktop/miniproject/build/turtle_project' returned '0': PYTHONPATH=/home/heybat/Desktop/miniproject/build/turtle_project/prefix_override:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/heybat/Desktop/miniproject/build/turtle_project/build
+[20.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/heybat/Desktop/miniproject/src/turtle_project': PYTHONPATH=/home/heybat/Desktop/miniproject/build/turtle_project/prefix_override:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_project build --build-base /home/heybat/Desktop/miniproject/build/turtle_project/build install --record /home/heybat/Desktop/miniproject/build/turtle_project/install.log --single-version-externally-managed
+[24.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/heybat/Desktop/miniproject/src/turtle_project' returned '0': PYTHONPATH=/home/heybat/Desktop/miniproject/build/turtle_project/prefix_override:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_project build --build-base /home/heybat/Desktop/miniproject/build/turtle_project/build install --record /home/heybat/Desktop/miniproject/build/turtle_project/install.log --single-version-externally-managed
+[24.696s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/turtle_project' for CMake module files
+[24.711s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/turtle_project' for CMake config files
+[24.727s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/turtle_project/lib'
+[24.729s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/turtle_project/bin'
+[24.729s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/turtle_project/lib/pkgconfig/turtle_project.pc'
+[24.731s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages'
+[24.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_project', 'pythonpath')
+[24.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heybat/Desktop/miniproject/install/turtle_project/share/turtle_project/hook/pythonpath.ps1'
+[24.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/heybat/Desktop/miniproject/install/turtle_project/share/turtle_project/hook/pythonpath.dsv'
+[24.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/heybat/Desktop/miniproject/install/turtle_project/share/turtle_project/hook/pythonpath.sh'
+[24.787s] Level 1:colcon.colcon_core.environment:checking '/home/heybat/Desktop/miniproject/install/turtle_project/bin'
+[24.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_project)
+[24.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/heybat/Desktop/miniproject/install/turtle_project/share/turtle_project/package.ps1'
+[24.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/heybat/Desktop/miniproject/install/turtle_project/share/turtle_project/package.dsv'
+[24.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/heybat/Desktop/miniproject/install/turtle_project/share/turtle_project/package.sh'
+[24.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/heybat/Desktop/miniproject/install/turtle_project/share/turtle_project/package.bash'
+[24.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/heybat/Desktop/miniproject/install/turtle_project/share/turtle_project/package.zsh'
+[24.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/heybat/Desktop/miniproject/install/turtle_project/share/colcon-core/packages/turtle_project)
+[24.837s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.839s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.839s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.840s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.925s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.940s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.941s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.168s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.177s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/heybat/Desktop/miniproject/install/local_setup.ps1'
+[25.200s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/heybat/Desktop/miniproject/install/_local_setup_util_ps1.py'
+[25.239s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/heybat/Desktop/miniproject/install/setup.ps1'
+[25.264s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/heybat/Desktop/miniproject/install/local_setup.sh'
+[25.270s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/heybat/Desktop/miniproject/install/_local_setup_util_sh.py'
+[25.279s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/heybat/Desktop/miniproject/install/setup.sh'
+[25.298s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/heybat/Desktop/miniproject/install/local_setup.bash'
+[25.303s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/heybat/Desktop/miniproject/install/setup.bash'
+[25.320s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/heybat/Desktop/miniproject/install/local_setup.zsh'
+[25.326s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/heybat/Desktop/miniproject/install/setup.zsh'

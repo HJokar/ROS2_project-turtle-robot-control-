@@ -1,0 +1,1 @@
+/home/heybat/Desktop/miniproject/build/robot_interfaces/ament_cmake_core/robot_interfacesConfig.cmake

@@ -1,3 +1,5 @@
+this project consist of following steps in ROS2:
+
 Step 1: Create the turtle_controller node, subscribe to /turtle1/pose. Create a control
 loop to reach a given target (for now an arbitrary one). A little bit of math will be required
 to find the distances and angles. And send the command to the /turtle1/cmd_vel topic.

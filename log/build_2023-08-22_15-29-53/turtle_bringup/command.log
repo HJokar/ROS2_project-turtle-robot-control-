@@ -1,0 +1,2 @@
+Invoking command in '/home/heybat/Desktop/miniproject/build/turtle_bringup': /usr/bin/cmake /home/heybat/Desktop/miniproject/src/turtle_bringup -DCMAKE_INSTALL_PREFIX=/home/heybat/Desktop/miniproject/install/turtle_bringup
+Invoked command in '/home/heybat/Desktop/miniproject/build/turtle_bringup' returned '1': /usr/bin/cmake /home/heybat/Desktop/miniproject/src/turtle_bringup -DCMAKE_INSTALL_PREFIX=/home/heybat/Desktop/miniproject/install/turtle_bringup

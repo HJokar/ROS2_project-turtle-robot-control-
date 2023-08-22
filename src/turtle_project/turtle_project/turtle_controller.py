@@ -23,7 +23,9 @@ class turtle_controllerNode(Node):
         self.Pose_=None
         self.subscriber_=self.create_subscription(Pose,'turtle1/pose',self.callback_turtle1_pose,10)
         self.publisher_=self.create_publisher(Twist,'turtle1/cmd_vel',10)
-        self.control_timer_=self.create_timer(0.01,self.Controller)
+        self.declare_parameter("frequency_controller",50.0)
+        self.frequency_controller_=self.get_parameter("frequency_controller").value
+        self.control_timer_=self.create_timer(1/self.frequency_controller_,self.Controller)
 
 
         self.get_logger().info("the controller node has been started...")
@@ -31,7 +33,17 @@ class turtle_controllerNode(Node):
     def callback_alive_turtles(self,msg):
         if len(msg.turtles)>0:
             self.alive_turtles=msg.turtles
-            self.turtle_to_catch=self.alive_turtles[0] 
+            #self.turtle_to_catch=self.alive_turtles[0]
+            distance =math.inf
+            for i in range(len(self.alive_turtles)):
+                errx=self.alive_turtles[i].x-self.Pose_.x
+                erry=self.alive_turtles[i].y-self.Pose_.y
+                distancen=math.sqrt(errx**2+erry**2)
+                if distancen<distance:
+                    self.turtle_to_catch=self.alive_turtles[i]
+                    distance=distancen
+
+
 
     def callback_turtle1_pose(self,msg):
         #self.get_logger().info('x='+str(msg.x))
@@ -76,7 +88,7 @@ class turtle_controllerNode(Node):
         distance=math.sqrt(errx**2+erry**2)
         goal_ang=math.atan2(erry,errx)
         errtheta=goal_ang-self.Pose_.theta
-        
+
         if errtheta>math.pi:
             errtheta-=2*math.pi
         elif errtheta<-math.pi:

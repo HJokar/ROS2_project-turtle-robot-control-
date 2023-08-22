@@ -1,0 +1,16 @@
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/launch/turtlecatcher.launch.py
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/ament_index/resource_index/package_run_dependencies/turtle_bringup
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/ament_index/resource_index/parent_prefix_path/turtle_bringup
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/environment/ament_prefix_path.sh
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/environment/ament_prefix_path.dsv
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/environment/path.sh
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/environment/path.dsv
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/local_setup.bash
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/local_setup.sh
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/local_setup.zsh
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/local_setup.dsv
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/package.dsv
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/ament_index/resource_index/packages/turtle_bringup
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/cmake/turtle_bringupConfig.cmake
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/cmake/turtle_bringupConfig-version.cmake
+/home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/package.xml

@@ -1,0 +1,56 @@
+[0.102s] Invoking command in '/home/heybat/Desktop/miniproject/src/build/turtle_bringup': /usr/bin/cmake /home/heybat/Desktop/miniproject/src/turtle_bringup -DCMAKE_INSTALL_PREFIX=/home/heybat/Desktop/miniproject/src/install/turtle_bringup
+[0.477s] -- The C compiler identification is GNU 11.4.0
+[0.828s] -- The CXX compiler identification is GNU 11.4.0
+[0.871s] -- Detecting C compiler ABI info
+[1.398s] -- Detecting C compiler ABI info - done
+[1.426s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.427s] -- Detecting C compile features
+[1.428s] -- Detecting C compile features - done
+[1.455s] -- Detecting CXX compiler ABI info
+[1.899s] -- Detecting CXX compiler ABI info - done
+[1.929s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.931s] -- Detecting CXX compile features
+[1.933s] -- Detecting CXX compile features - done
+[1.962s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.040s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.040s] Error parsing '/home/heybat/Desktop/miniproject/src/turtle_bringup/package.xml':
+[4.250s] Traceback (most recent call last):
+[4.250s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[4.251s]     root = dom.parseString(data)
+[4.251s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[4.252s]     return expatbuilder.parseString(string)
+[4.252s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[4.253s]     return builder.parseString(string)
+[4.254s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[4.255s]     parser.Parse(string, True)
+[4.257s] xml.parsers.expat.ExpatError: mismatched tag: line 24, column 2
+[4.258s] 
+[4.259s] During handling of the above exception, another exception occurred:
+[4.260s] 
+[4.262s] Traceback (most recent call last):
+[4.263s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[4.264s]     main()
+[4.265s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[4.266s]     raise e
+[4.267s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[4.268s]     package = parse_package_string(
+[4.270s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[4.271s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[4.272s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/heybat/Desktop/miniproject/src/turtle_bringup/package.xml':
+[4.273s] The manifest contains invalid XML:
+[4.273s] mismatched tag: line 24, column 2
+[4.341s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[4.342s]   execute_process(/usr/bin/python3.10
+[4.343s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.343s]   /home/heybat/Desktop/miniproject/src/turtle_bringup/package.xml
+[4.344s]   /home/heybat/Desktop/miniproject/src/build/turtle_bringup/ament_cmake_core/package.cmake)
+[4.344s]   returned error code 1
+[4.344s] Call Stack (most recent call first):
+[4.345s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.345s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[4.345s]   CMakeLists.txt:20 (ament_package)
+[4.346s] 
+[4.347s] [0m
+[4.348s] -- Configuring incomplete, errors occurred!
+[4.349s] See also "/home/heybat/Desktop/miniproject/src/build/turtle_bringup/CMakeFiles/CMakeOutput.log".
+[4.360s] Invoked command in '/home/heybat/Desktop/miniproject/src/build/turtle_bringup' returned '1': /usr/bin/cmake /home/heybat/Desktop/miniproject/src/turtle_bringup -DCMAKE_INSTALL_PREFIX=/home/heybat/Desktop/miniproject/src/install/turtle_bringup

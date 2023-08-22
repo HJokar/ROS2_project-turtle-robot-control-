@@ -1,0 +1,9 @@
+/home/heybat/Desktop/miniproject/build/turtle_bringup/CMakeFiles/uninstall.dir
+/home/heybat/Desktop/miniproject/build/turtle_bringup/CMakeFiles/turtle_bringup_uninstall.dir
+/home/heybat/Desktop/miniproject/build/turtle_bringup/CMakeFiles/test.dir
+/home/heybat/Desktop/miniproject/build/turtle_bringup/CMakeFiles/edit_cache.dir
+/home/heybat/Desktop/miniproject/build/turtle_bringup/CMakeFiles/rebuild_cache.dir
+/home/heybat/Desktop/miniproject/build/turtle_bringup/CMakeFiles/list_install_components.dir
+/home/heybat/Desktop/miniproject/build/turtle_bringup/CMakeFiles/install.dir
+/home/heybat/Desktop/miniproject/build/turtle_bringup/CMakeFiles/install/local.dir
+/home/heybat/Desktop/miniproject/build/turtle_bringup/CMakeFiles/install/strip.dir

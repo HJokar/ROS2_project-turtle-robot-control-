@@ -1,0 +1,29 @@
+[0.094s] Invoking command in '/home/heybat/Desktop/miniproject/src/build/turtle_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake /home/heybat/Desktop/miniproject/src/turtle_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/heybat/Desktop/miniproject/src/install/turtle_bringup
+[0.167s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.004s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.474s] -- Configuring done
+[1.498s] -- Generating done
+[1.504s] -- Build files have been written to: /home/heybat/Desktop/miniproject/src/build/turtle_bringup
+[1.518s] Invoked command in '/home/heybat/Desktop/miniproject/src/build/turtle_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake /home/heybat/Desktop/miniproject/src/turtle_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/heybat/Desktop/miniproject/src/install/turtle_bringup
+[1.520s] Invoking command in '/home/heybat/Desktop/miniproject/src/build/turtle_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake --build /home/heybat/Desktop/miniproject/src/build/turtle_bringup -- -j4 -l4
+[1.716s] Invoked command in '/home/heybat/Desktop/miniproject/src/build/turtle_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake --build /home/heybat/Desktop/miniproject/src/build/turtle_bringup -- -j4 -l4
+[1.901s] Invoking command in '/home/heybat/Desktop/miniproject/src/build/turtle_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake --install /home/heybat/Desktop/miniproject/src/build/turtle_bringup
+[1.931s] -- Install configuration: ""
+[1.933s] -- Execute custom install script
+[1.937s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/launch/turtlecatcher.launch.py
+[1.983s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/ament_index/resource_index/package_run_dependencies/turtle_bringup
+[2.021s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/ament_index/resource_index/parent_prefix_path/turtle_bringup
+[2.064s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/environment/ament_prefix_path.sh
+[2.103s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/environment/ament_prefix_path.dsv
+[2.150s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/environment/path.sh
+[2.207s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/environment/path.dsv
+[2.246s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/local_setup.bash
+[2.290s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/local_setup.sh
+[2.337s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/local_setup.zsh
+[2.410s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/local_setup.dsv
+[2.460s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/package.dsv
+[2.506s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/ament_index/resource_index/packages/turtle_bringup
+[2.556s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/cmake/turtle_bringupConfig.cmake
+[2.603s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/cmake/turtle_bringupConfig-version.cmake
+[2.659s] -- Symlinking: /home/heybat/Desktop/miniproject/src/install/turtle_bringup/share/turtle_bringup/package.xml
+[2.720s] Invoked command in '/home/heybat/Desktop/miniproject/src/build/turtle_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble /usr/bin/cmake --install /home/heybat/Desktop/miniproject/src/build/turtle_bringup

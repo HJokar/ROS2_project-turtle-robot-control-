@@ -1,0 +1,1 @@
+/home/heybat/Desktop/miniproject/src/build/turtle_bringup/ament_cmake_environment_hooks/local_setup.bash

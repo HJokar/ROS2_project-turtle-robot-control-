@@ -21,7 +21,9 @@ class turtleSpawnerNode(Node):
         #self.turtle_publisher_=self.create_publisher(Turtle,'turtle',10)
         self.server_=self.create_service(CatchTurtle,'catch_turtle', self.callback_catch_turtle)
         self.turtle_count_=0
-        self.create_timer(2.0,self.new_turtle)
+        self.declare_parameter("spawn_period",2.0)
+        self.period_=self.get_parameter("spawn_period").value
+        self.create_timer(self.period_,self.new_turtle)
 
 
     def callback_catch_turtle(self,request, response):

@@ -74,6 +74,10 @@ CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/turt
 CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/detail/turtle_array__builder.hpp
 CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/detail/turtle_array__struct.hpp
 CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/detail/turtle_array__traits.hpp
+CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/catch_turtle.hpp
+CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__builder.hpp
+CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__struct.hpp
+CMakeFiles/robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__traits.hpp
 
 rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -92,6 +96,7 @@ rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp: /opt/ros/humble/share/rosi
 rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp: rosidl_adapter/robot_interfaces/msg/Turtle.idl
 rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp: rosidl_adapter/robot_interfaces/msg/TurtleArray.idl
+rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp: rosidl_adapter/robot_interfaces/srv/CatchTurtle.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/heybat/Desktop/miniproject/build/robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -116,6 +121,18 @@ rosidl_generator_cpp/robot_interfaces/msg/detail/turtle_array__struct.hpp: rosid
 rosidl_generator_cpp/robot_interfaces/msg/detail/turtle_array__traits.hpp: rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_interfaces/msg/detail/turtle_array__traits.hpp
 
+rosidl_generator_cpp/robot_interfaces/srv/catch_turtle.hpp: rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_interfaces/srv/catch_turtle.hpp
+
+rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__builder.hpp: rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__builder.hpp
+
+rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__struct.hpp: rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__struct.hpp
+
+rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__traits.hpp: rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__traits.hpp
+
 robot_interfaces__cpp: CMakeFiles/robot_interfaces__cpp
 robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/detail/turtle__builder.hpp
 robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/detail/turtle__struct.hpp
@@ -125,6 +142,10 @@ robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/detail/turtle_a
 robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/detail/turtle_array__traits.hpp
 robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp
 robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/msg/turtle_array.hpp
+robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/catch_turtle.hpp
+robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__builder.hpp
+robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__struct.hpp
+robot_interfaces__cpp: rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__traits.hpp
 robot_interfaces__cpp: CMakeFiles/robot_interfaces__cpp.dir/build.make
 .PHONY : robot_interfaces__cpp
 

@@ -19,6 +19,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_py/robot_interfaces/msg/_turtle_array.py" "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_py/robot_interfaces/msg/_turtle_array_s.c" "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_py/robot_interfaces/msg/_turtle_s.c" "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/__init__.py" "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_catch_turtle.py" "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_py/robot_interfaces/srv/_catch_turtle_s.c" "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

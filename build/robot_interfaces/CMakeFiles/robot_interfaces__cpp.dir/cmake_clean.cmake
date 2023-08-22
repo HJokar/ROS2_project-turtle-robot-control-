@@ -8,6 +8,10 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/robot_interfaces/msg/detail/turtle_array__traits.hpp"
   "rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp"
   "rosidl_generator_cpp/robot_interfaces/msg/turtle_array.hpp"
+  "rosidl_generator_cpp/robot_interfaces/srv/catch_turtle.hpp"
+  "rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__builder.hpp"
+  "rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__struct.hpp"
+  "rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__traits.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

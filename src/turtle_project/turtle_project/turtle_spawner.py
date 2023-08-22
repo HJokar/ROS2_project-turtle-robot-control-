@@ -2,9 +2,12 @@
 import rclpy
 from rclpy.node import Node
 from turtlesim.srv import Spawn
+from turtlesim.srv import Kill
+
 from functools import partial
 from robot_interfaces.msg import Turtle
 from robot_interfaces.msg import TurtleArray
+from robot_interfaces.srv import CatchTurtle
 import math
 import random
 
@@ -16,9 +19,18 @@ class turtleSpawnerNode(Node):
         self.get_logger().info('the spawner node has been started')
         self.turtles_publisher_=self.create_publisher(TurtleArray,'alive_turtles',10)
         #self.turtle_publisher_=self.create_publisher(Turtle,'turtle',10)
-
+        self.server_=self.create_service(CatchTurtle,'catch_turtle', self.callback_catch_turtle)
         self.turtle_count_=0
         self.create_timer(2.0,self.new_turtle)
+
+
+    def callback_catch_turtle(self,request, response):
+        nametoremove=request.name
+        self.call_Kill_server(nametoremove)
+        response.sucess=True
+        return response
+        
+
 
     def publish_alive_turtles(self):
         msg=TurtleArray()
@@ -41,6 +53,32 @@ class turtleSpawnerNode(Node):
         self.alive_turtles_.append(new_tur_)
         self.publish_alive_turtles()
 
+    def call_Kill_server(self,name):
+        client_=self.create_client(Kill,'kill')
+
+        while not client_.wait_for_service(1.0):
+            self.get_logger().warn("waiting for the service ...")
+        
+        request=Kill.Request()
+        
+  
+        request.name=name
+
+        future =client_.call_async(request)
+        future.add_done_callback(partial(self.callback_call_kill,name=name))
+
+    def callback_call_kill(self, future,name):
+        try:
+            future.result()
+            for i in range(len(self.alive_turtles_)):
+                if self.alive_turtles_[i].name==name:
+                    del self.alive_turtles_[i]
+                    self.publish_alive_turtles()
+                    break
+
+
+        except Exception as e:
+            self.get_logger().error("Service call failed %r" % (e,))
 
 
     def call_spawner_server(self,x,y,theta,name):

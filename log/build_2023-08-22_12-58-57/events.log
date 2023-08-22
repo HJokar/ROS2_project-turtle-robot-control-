@@ -1,0 +1,351 @@
+[0.000000] (-) TimerEvent: {}
+[0.001581] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.002244] (turtle_project) JobQueued: {'identifier': 'turtle_project', 'dependencies': OrderedDict()}
+[0.003588] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.068753] (turtle_project) JobStarted: {'identifier': 'turtle_project'}
+[0.099264] (-) TimerEvent: {}
+[0.174339] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[0.197692] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/heybat/Desktop/miniproject/src/robot_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/heybat/Desktop/miniproject/install/robot_interfaces'], 'cwd': '/home/heybat/Desktop/miniproject/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'heybat'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/heybat/Desktop/miniproject/install/robot_interfaces/lib:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/heybat'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1985'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/heybat/Desktop/miniproject/install:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install:/home/heybat/Desktop/ros2_ws2/install:/home/heybat/Desktop/ws_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'heybat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'heybat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/heybat-desktop:@/tmp/.ICE-unix/1175,unix/heybat-desktop:/tmp/.ICE-unix/1175'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b25e7af3_b967_45aa_aa70_b69d9fac1ada'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LH7W91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/miniproject/install/robot_interfaces:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/heybat/Desktop/miniproject/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/heybat/Desktop/miniproject/build/turtle_project:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:/home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/heybat/Desktop/ws_ros2/install/my_robot_controller/lib/python3.10/site-packages:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces/local/lib/python3.10/dist-packages:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/build/my_second_pkg:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg/lib/python3.10/site-packages:/home/heybat/Desktop/ros2_ws2/build/my_first_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/heybat/Desktop/miniproject/install/robot_interfaces:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble')]), 'shell': False}
+[0.206650] (-) TimerEvent: {}
+[0.282663] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.306824] (-) TimerEvent: {}
+[0.408130] (-) TimerEvent: {}
+[0.509092] (-) TimerEvent: {}
+[0.610235] (-) TimerEvent: {}
+[0.711137] (-) TimerEvent: {}
+[0.812116] (-) TimerEvent: {}
+[0.912941] (-) TimerEvent: {}
+[1.013805] (-) TimerEvent: {}
+[1.115082] (-) TimerEvent: {}
+[1.215993] (-) TimerEvent: {}
+[1.220618] (robot_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.271370] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.283065] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.297251] (robot_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.316137] (-) TimerEvent: {}
+[1.417443] (-) TimerEvent: {}
+[1.500573] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.517612] (-) TimerEvent: {}
+[1.618406] (-) TimerEvent: {}
+[1.719330] (-) TimerEvent: {}
+[1.820648] (-) TimerEvent: {}
+[1.921710] (-) TimerEvent: {}
+[2.022868] (-) TimerEvent: {}
+[2.123981] (-) TimerEvent: {}
+[2.226242] (-) TimerEvent: {}
+[2.330298] (-) TimerEvent: {}
+[2.431311] (-) TimerEvent: {}
+[2.532167] (-) TimerEvent: {}
+[2.633678] (-) TimerEvent: {}
+[2.734848] (-) TimerEvent: {}
+[2.835628] (-) TimerEvent: {}
+[2.936551] (-) TimerEvent: {}
+[3.037461] (-) TimerEvent: {}
+[3.138838] (-) TimerEvent: {}
+[3.239761] (-) TimerEvent: {}
+[3.291629] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.339941] (-) TimerEvent: {}
+[3.442222] (-) TimerEvent: {}
+[3.543091] (-) TimerEvent: {}
+[3.643879] (-) TimerEvent: {}
+[3.744747] (-) TimerEvent: {}
+[3.846255] (-) TimerEvent: {}
+[3.947119] (-) TimerEvent: {}
+[4.048025] (-) TimerEvent: {}
+[4.149049] (-) TimerEvent: {}
+[4.250050] (-) TimerEvent: {}
+[4.352019] (-) TimerEvent: {}
+[4.453283] (-) TimerEvent: {}
+[4.466067] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.553545] (-) TimerEvent: {}
+[4.638714] (turtle_project) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/heybat/Desktop/miniproject/build/turtle_project/build', '--no-deps', 'install_data'], 'cwd': '/home/heybat/Desktop/miniproject/build/turtle_project', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'heybat', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/heybat/Desktop/miniproject/install/robot_interfaces/lib:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/heybat', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1985', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/heybat/Desktop/miniproject/install:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install:/home/heybat/Desktop/ros2_ws2/install:/home/heybat/Desktop/ws_ros2/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'heybat', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'heybat', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/heybat-desktop:@/tmp/.ICE-unix/1175,unix/heybat-desktop:/tmp/.ICE-unix/1175', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b25e7af3_b967_45aa_aa70_b69d9fac1ada', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LH7W91', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/miniproject/install/robot_interfaces:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/heybat/Desktop/miniproject/build/turtle_project', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/heybat/Desktop/miniproject/build/turtle_project/prefix_override:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:/home/heybat/Desktop/miniproject/build/turtle_project:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:/home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/heybat/Desktop/ws_ros2/install/my_robot_controller/lib/python3.10/site-packages:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces/local/lib/python3.10/dist-packages:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/build/my_second_pkg:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg/lib/python3.10/site-packages:/home/heybat/Desktop/ros2_ws2/build/my_first_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/heybat/Desktop/miniproject/install/robot_interfaces:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces'}, 'shell': False}
+[4.654001] (-) TimerEvent: {}
+[4.755074] (-) TimerEvent: {}
+[4.856044] (-) TimerEvent: {}
+[4.957173] (-) TimerEvent: {}
+[5.057880] (-) TimerEvent: {}
+[5.158706] (-) TimerEvent: {}
+[5.259621] (-) TimerEvent: {}
+[5.360548] (-) TimerEvent: {}
+[5.461457] (-) TimerEvent: {}
+[5.562533] (-) TimerEvent: {}
+[5.663969] (-) TimerEvent: {}
+[5.764829] (-) TimerEvent: {}
+[5.865696] (-) TimerEvent: {}
+[5.966561] (-) TimerEvent: {}
+[6.058070] (robot_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.066788] (-) TimerEvent: {}
+[6.167776] (-) TimerEvent: {}
+[6.198299] (robot_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.267948] (-) TimerEvent: {}
+[6.344964] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.345821] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.346358] (robot_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[6.368136] (-) TimerEvent: {}
+[6.469826] (-) TimerEvent: {}
+[6.486346] (robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.493972] (turtle_project) StdoutLine: {'line': b'running develop\n'}
+[6.570909] (-) TimerEvent: {}
+[6.672017] (-) TimerEvent: {}
+[6.768079] (robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[6.772252] (-) TimerEvent: {}
+[6.800593] (robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/heybat/Desktop/miniproject/build/robot_interfaces\n'}
+[6.843631] (robot_interfaces) CommandEnded: {'returncode': 0}
+[6.846018] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[6.846304] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/heybat/Desktop/miniproject/build/robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/heybat/Desktop/miniproject/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'heybat'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/heybat/Desktop/miniproject/install/robot_interfaces/lib:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/heybat'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1985'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/heybat/Desktop/miniproject/install:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install:/home/heybat/Desktop/ros2_ws2/install:/home/heybat/Desktop/ws_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'heybat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'heybat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/heybat-desktop:@/tmp/.ICE-unix/1175,unix/heybat-desktop:/tmp/.ICE-unix/1175'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b25e7af3_b967_45aa_aa70_b69d9fac1ada'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LH7W91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/miniproject/install/robot_interfaces:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/heybat/Desktop/miniproject/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/heybat/Desktop/miniproject/build/turtle_project:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:/home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/heybat/Desktop/ws_ros2/install/my_robot_controller/lib/python3.10/site-packages:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces/local/lib/python3.10/dist-packages:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/build/my_second_pkg:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg/lib/python3.10/site-packages:/home/heybat/Desktop/ros2_ws2/build/my_first_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/heybat/Desktop/miniproject/install/robot_interfaces:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble')]), 'shell': False}
+[6.872488] (-) TimerEvent: {}
+[6.974913] (-) TimerEvent: {}
+[7.076809] (-) TimerEvent: {}
+[7.178506] (-) TimerEvent: {}
+[7.280471] (-) TimerEvent: {}
+[7.299860] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_generator_c\x1b[0m\n'}
+[7.346822] (robot_interfaces) StdoutLine: {'line': b'[  2%] Built target robot_interfaces__cpp\n'}
+[7.380702] (-) TimerEvent: {}
+[7.429131] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[7.480573] (robot_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_robot_interfaces\n'}
+[7.481538] (-) TimerEvent: {}
+[7.503102] (robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target robot_interfaces__rosidl_generator_c\n'}
+[7.536342] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[7.581750] (-) TimerEvent: {}
+[7.683586] (-) TimerEvent: {}
+[7.691882] (robot_interfaces) StdoutLine: {'line': b'[ 23%] Built target robot_interfaces__rosidl_typesupport_cpp\n'}
+[7.734668] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[7.766645] (robot_interfaces) StdoutLine: {'line': b'[ 34%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.783867] (-) TimerEvent: {}
+[7.853556] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.884037] (-) TimerEvent: {}
+[7.901544] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.938859] (robot_interfaces) StdoutLine: {'line': b'[ 44%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[7.984460] (-) TimerEvent: {}
+[7.985233] (robot_interfaces) StdoutLine: {'line': b'[ 55%] Built target robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.032292] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[8.040851] (robot_interfaces) StdoutLine: {'line': b'[ 65%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.084708] (-) TimerEvent: {}
+[8.116160] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces__rosidl_typesupport_c\n'}
+[8.187859] (-) TimerEvent: {}
+[8.289025] (-) TimerEvent: {}
+[8.378311] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces\n'}
+[8.389656] (-) TimerEvent: {}
+[8.491540] (-) TimerEvent: {}
+[8.517210] (robot_interfaces) StdoutLine: {'line': b'[ 78%] Built target robot_interfaces__py\n'}
+[8.591804] (-) TimerEvent: {}
+[8.607084] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_generator_py\x1b[0m\n'}
+[8.692010] (-) TimerEvent: {}
+[8.781575] (robot_interfaces) StdoutLine: {'line': b'[ 87%] Built target robot_interfaces__rosidl_generator_py\n'}
+[8.792203] (-) TimerEvent: {}
+[8.864884] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.892408] (-) TimerEvent: {}
+[8.940796] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.950414] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.992659] (-) TimerEvent: {}
+[9.094416] (-) TimerEvent: {}
+[9.104012] (robot_interfaces) StdoutLine: {'line': b'[ 91%] Built target robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[9.175320] (robot_interfaces) StdoutLine: {'line': b'[ 95%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[9.182738] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.194615] (-) TimerEvent: {}
+[9.225146] (turtle_project) StdoutLine: {'line': b'running egg_info\n'}
+[9.226464] (turtle_project) StdoutLine: {'line': b'writing turtle_project.egg-info/PKG-INFO\n'}
+[9.227603] (turtle_project) StdoutLine: {'line': b'writing dependency_links to turtle_project.egg-info/dependency_links.txt\n'}
+[9.229264] (turtle_project) StdoutLine: {'line': b'writing entry points to turtle_project.egg-info/entry_points.txt\n'}
+[9.230694] (turtle_project) StdoutLine: {'line': b'writing requirements to turtle_project.egg-info/requires.txt\n'}
+[9.231933] (turtle_project) StdoutLine: {'line': b'writing top-level names to turtle_project.egg-info/top_level.txt\n'}
+[9.244863] (turtle_project) StdoutLine: {'line': b"reading manifest file 'turtle_project.egg-info/SOURCES.txt'\n"}
+[9.250656] (turtle_project) StdoutLine: {'line': b"writing manifest file 'turtle_project.egg-info/SOURCES.txt'\n"}
+[9.260858] (turtle_project) StdoutLine: {'line': b'running build_ext\n'}
+[9.262035] (turtle_project) StdoutLine: {'line': b'Creating /home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages/turtle-project.egg-link (link to .)\n'}
+[9.267441] (turtle_project) StdoutLine: {'line': b'Installing turtle_controller script to /home/heybat/Desktop/miniproject/install/turtle_project/lib/turtle_project\n'}
+[9.268752] (turtle_project) StdoutLine: {'line': b'Installing turtle_spawner_node script to /home/heybat/Desktop/miniproject/install/turtle_project/lib/turtle_project\n'}
+[9.271616] (turtle_project) StdoutLine: {'line': b'\n'}
+[9.272718] (turtle_project) StdoutLine: {'line': b'Installed /home/heybat/Desktop/miniproject/build/turtle_project\n'}
+[9.273835] (turtle_project) StdoutLine: {'line': b'running install_data\n'}
+[9.294971] (-) TimerEvent: {}
+[9.396785] (-) TimerEvent: {}
+[9.498126] (-) TimerEvent: {}
+[9.565621] (turtle_project) CommandEnded: {'returncode': 0}
+[9.599086] (-) TimerEvent: {}
+[9.702411] (-) TimerEvent: {}
+[9.723894] (turtle_project) JobEnded: {'identifier': 'turtle_project', 'rc': 0}
+[9.802653] (-) TimerEvent: {}
+[9.903643] (-) TimerEvent: {}
+[10.004654] (-) TimerEvent: {}
+[10.105596] (-) TimerEvent: {}
+[10.206546] (-) TimerEvent: {}
+[10.307519] (-) TimerEvent: {}
+[10.408629] (-) TimerEvent: {}
+[10.509669] (-) TimerEvent: {}
+[10.610857] (-) TimerEvent: {}
+[10.671927] (robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[10.678252] (robot_interfaces) StdoutLine: {'line': b'writing robot_interfaces.egg-info/PKG-INFO\n'}
+[10.681585] (robot_interfaces) StdoutLine: {'line': b'writing dependency_links to robot_interfaces.egg-info/dependency_links.txt\n'}
+[10.683876] (robot_interfaces) StdoutLine: {'line': b'writing top-level names to robot_interfaces.egg-info/top_level.txt\n'}
+[10.697529] (robot_interfaces) StdoutLine: {'line': b"reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[10.701452] (robot_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[10.711269] (-) TimerEvent: {}
+[10.812713] (-) TimerEvent: {}
+[10.913747] (-) TimerEvent: {}
+[10.954728] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_robot_interfaces_egg\n'}
+[11.015976] (-) TimerEvent: {}
+[11.020772] (robot_interfaces) CommandEnded: {'returncode': 0}
+[11.116244] (-) TimerEvent: {}
+[11.217200] (-) TimerEvent: {}
+[11.318350] (-) TimerEvent: {}
+[11.423879] (-) TimerEvent: {}
+[11.524867] (-) TimerEvent: {}
+[11.626294] (-) TimerEvent: {}
+[11.727632] (-) TimerEvent: {}
+[11.828657] (-) TimerEvent: {}
+[11.935875] (-) TimerEvent: {}
+[11.983752] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'install'}
+[12.027959] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/heybat/Desktop/miniproject/build/robot_interfaces'], 'cwd': '/home/heybat/Desktop/miniproject/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'heybat'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/heybat/Desktop/miniproject/install/robot_interfaces/lib:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/heybat'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1985'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/heybat/Desktop/miniproject/install:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install:/home/heybat/Desktop/ros2_ws2/install:/home/heybat/Desktop/ws_ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'heybat'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'heybat'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/heybat-desktop:@/tmp/.ICE-unix/1175,unix/heybat-desktop:/tmp/.ICE-unix/1175'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b25e7af3_b967_45aa_aa70_b69d9fac1ada'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LH7W91'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.94'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/miniproject/install/robot_interfaces:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/heybat/Desktop/miniproject/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/heybat/Desktop/miniproject/build/turtle_project:/home/heybat/Desktop/miniproject/install/turtle_project/lib/python3.10/site-packages:/home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/heybat/Desktop/ws_ros2/install/my_robot_controller/lib/python3.10/site-packages:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces/local/lib/python3.10/dist-packages:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/build/my_second_pkg:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg/lib/python3.10/site-packages:/home/heybat/Desktop/ros2_ws2/build/my_first_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/heybat/Desktop/miniproject/install/robot_interfaces:/home/heybat/Desktop/ws_ros2/install/my_custom_interfaces:/home/heybat/Desktop/miniproject/install/turtle_project:/home/heybat/Desktop/ws_ros2/install/my_robot_controller:/home/heybat/Desktop/ROS/ActivitywithROS/Activity2_Ros2/install/my_second_pkg:/home/heybat/Desktop/ros2_ws2/install/my_first_pkg:/opt/ros/humble')]), 'shell': False}
+[12.035883] (-) TimerEvent: {}
+[12.079940] (robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.082931] (robot_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.085419] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces\n'}
+[12.090445] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__functions.h\n'}
+[12.091801] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__struct.h\n'}
+[12.093145] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__type_support.h\n'}
+[12.094582] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__functions.h\n'}
+[12.095618] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__struct.h\n'}
+[12.096906] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__type_support.h\n'}
+[12.098088] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.099237] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/turtle.h\n'}
+[12.100471] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/turtle_array.h\n'}
+[12.101971] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/catch_turtle.h\n'}
+[12.102891] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/catch_turtle__functions.h\n'}
+[12.104278] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/catch_turtle__struct.h\n'}
+[12.105486] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/catch_turtle__type_support.h\n'}
+[12.107163] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh\n'}
+[12.111404] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv\n'}
+[12.113517] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[12.114841] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h\n'}
+[12.116177] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.120030] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_c.h\n'}
+[12.121044] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h\n'}
+[12.122411] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h\n'}
+[12.124048] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.125389] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_c.h\n'}
+[12.129446] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__builder.hpp\n'}
+[12.132514] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__struct.hpp\n'}
+[12.135547] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__traits.hpp\n'}
+[12.136557] (-) TimerEvent: {}
+[12.138385] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__builder.hpp\n'}
+[12.140983] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__struct.hpp\n'}
+[12.143545] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__traits.hpp\n'}
+[12.146081] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/turtle.hpp\n'}
+[12.148871] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/turtle_array.hpp\n'}
+[12.152296] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/catch_turtle.hpp\n'}
+[12.156466] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/catch_turtle__builder.hpp\n'}
+[12.158716] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/catch_turtle__struct.hpp\n'}
+[12.161288] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/catch_turtle__traits.hpp\n'}
+[12.169057] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.171595] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.175204] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.178213] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.184501] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.185890] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.187765] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/include/robot_interfaces/robot_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.190319] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh\n'}
+[12.191257] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv\n'}
+[12.194485] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.196331] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.199023] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.200762] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.208721] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py\n'}
+[12.215952] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.217130] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.224745] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.225758] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so\n'}
+[12.226718] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/__init__.py\n'}
+[12.227614] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_turtle.py\n'}
+[12.228627] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_turtle_array.py\n'}
+[12.232581] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_turtle_array_s.c\n'}
+[12.236802] (-) TimerEvent: {}
+[12.237593] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_turtle_s.c\n'}
+[12.239276] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[12.243511] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[12.248696] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[12.250675] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/__init__.py\n'}
+[12.254881] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_catch_turtle.py\n'}
+[12.276282] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv/_catch_turtle_s.c\n'}
+[12.282291] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[12.294916] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[12.299583] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[12.303927] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/msg/Turtle.idl\n'}
+[12.313306] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/msg/TurtleArray.idl\n'}
+[12.316325] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/srv/CatchTurtle.idl\n'}
+[12.327755] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/msg/Turtle.msg\n'}
+[12.332229] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/msg/TurtleArray.msg\n'}
+[12.334915] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/srv/CatchTurtle.srv\n'}
+[12.337856] (-) TimerEvent: {}
+[12.342951] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/srv/CatchTurtle_Request.msg\n'}
+[12.346511] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/srv/CatchTurtle_Response.msg\n'}
+[12.351413] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces\n'}
+[12.354995] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces\n'}
+[12.359416] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh\n'}
+[12.363136] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.366974] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/path.sh\n'}
+[12.372160] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/environment/path.dsv\n'}
+[12.373400] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/local_setup.bash\n'}
+[12.378799] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/local_setup.sh\n'}
+[12.386060] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/local_setup.zsh\n'}
+[12.387093] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/local_setup.dsv\n'}
+[12.390065] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/package.dsv\n'}
+[12.438148] (-) TimerEvent: {}
+[12.448084] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces\n'}
+[12.449235] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.454127] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.462101] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.465583] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.471877] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.474107] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.479339] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.484441] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake\n'}
+[12.489329] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake\n'}
+[12.490676] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/package.xml\n'}
+[12.491704] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so\n'}
+[12.506652] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[12.512270] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.538355] (-) TimerEvent: {}
+[12.628725] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so\n'}
+[12.631514] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.638558] (-) TimerEvent: {}
+[12.641249] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.643645] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[12.738918] (-) TimerEvent: {}
+[12.839959] (-) TimerEvent: {}
+[12.940808] (-) TimerEvent: {}
+[12.955515] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...\n"}
+[12.956570] (robot_interfaces) StdoutLine: {'line': b"Compiling '/home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py'...\n"}
+[12.957387] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg'...\n"}
+[12.958284] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/heybat/Desktop/miniproject/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/srv'...\n"}
+[13.007868] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so\n'}
+[13.008787] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[13.009590] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.010259] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.010949] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.011640] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.012488] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.013185] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[13.013910] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.014775] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[13.016395] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.018117] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.020445] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.022196] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.024486] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[13.026295] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.028485] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[13.030406] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/heybat/Desktop/miniproject/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.040995] (-) TimerEvent: {}
+[13.048856] (robot_interfaces) CommandEnded: {'returncode': 0}
+[13.145709] (-) TimerEvent: {}
+[13.246668] (-) TimerEvent: {}
+[13.347499] (-) TimerEvent: {}
+[13.448611] (-) TimerEvent: {}
+[13.549517] (-) TimerEvent: {}
+[13.650499] (-) TimerEvent: {}
+[13.752244] (-) TimerEvent: {}
+[13.853112] (-) TimerEvent: {}
+[13.959100] (-) TimerEvent: {}
+[14.038256] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[14.042892] (-) EventReactorShutdown: {}

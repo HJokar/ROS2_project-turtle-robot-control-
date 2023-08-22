@@ -19,6 +19,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/detail/turtle_array__struct.hpp" "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp"
   "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/detail/turtle_array__traits.hpp" "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp"
   "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/turtle_array.hpp" "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp"
+  "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/srv/catch_turtle.hpp" "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp"
+  "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__builder.hpp" "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp"
+  "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__struct.hpp" "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp"
+  "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/srv/detail/catch_turtle__traits.hpp" "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_cpp/robot_interfaces/msg/turtle.hpp"
   )
 
 

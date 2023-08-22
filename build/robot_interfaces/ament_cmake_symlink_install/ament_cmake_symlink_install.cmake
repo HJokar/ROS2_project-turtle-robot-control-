@@ -364,11 +364,23 @@ ament_cmake_symlink_install_files("/home/heybat/Desktop/miniproject/src/robot_in
 # install(FILES "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_adapter/robot_interfaces/msg/TurtleArray.idl" "DESTINATION" "share/robot_interfaces/msg")
 ament_cmake_symlink_install_files("/home/heybat/Desktop/miniproject/src/robot_interfaces" FILES "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_adapter/robot_interfaces/msg/TurtleArray.idl" "DESTINATION" "share/robot_interfaces/msg")
 
+# install(FILES "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_adapter/robot_interfaces/srv/CatchTurtle.idl" "DESTINATION" "share/robot_interfaces/srv")
+ament_cmake_symlink_install_files("/home/heybat/Desktop/miniproject/src/robot_interfaces" FILES "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_adapter/robot_interfaces/srv/CatchTurtle.idl" "DESTINATION" "share/robot_interfaces/srv")
+
 # install(FILES "/home/heybat/Desktop/miniproject/src/robot_interfaces/msg/Turtle.msg" "DESTINATION" "share/robot_interfaces/msg")
 ament_cmake_symlink_install_files("/home/heybat/Desktop/miniproject/src/robot_interfaces" FILES "/home/heybat/Desktop/miniproject/src/robot_interfaces/msg/Turtle.msg" "DESTINATION" "share/robot_interfaces/msg")
 
 # install(FILES "/home/heybat/Desktop/miniproject/src/robot_interfaces/msg/TurtleArray.msg" "DESTINATION" "share/robot_interfaces/msg")
 ament_cmake_symlink_install_files("/home/heybat/Desktop/miniproject/src/robot_interfaces" FILES "/home/heybat/Desktop/miniproject/src/robot_interfaces/msg/TurtleArray.msg" "DESTINATION" "share/robot_interfaces/msg")
+
+# install(FILES "/home/heybat/Desktop/miniproject/src/robot_interfaces/srv/CatchTurtle.srv" "DESTINATION" "share/robot_interfaces/srv")
+ament_cmake_symlink_install_files("/home/heybat/Desktop/miniproject/src/robot_interfaces" FILES "/home/heybat/Desktop/miniproject/src/robot_interfaces/srv/CatchTurtle.srv" "DESTINATION" "share/robot_interfaces/srv")
+
+# install(FILES "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_cmake/srv/CatchTurtle_Request.msg" "DESTINATION" "share/robot_interfaces/srv")
+ament_cmake_symlink_install_files("/home/heybat/Desktop/miniproject/src/robot_interfaces" FILES "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_cmake/srv/CatchTurtle_Request.msg" "DESTINATION" "share/robot_interfaces/srv")
+
+# install(FILES "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_cmake/srv/CatchTurtle_Response.msg" "DESTINATION" "share/robot_interfaces/srv")
+ament_cmake_symlink_install_files("/home/heybat/Desktop/miniproject/src/robot_interfaces" FILES "/home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_cmake/srv/CatchTurtle_Response.msg" "DESTINATION" "share/robot_interfaces/srv")
 
 # install(FILES "/home/heybat/Desktop/miniproject/build/robot_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/heybat/Desktop/miniproject/src/robot_interfaces" FILES "/home/heybat/Desktop/miniproject/build/robot_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

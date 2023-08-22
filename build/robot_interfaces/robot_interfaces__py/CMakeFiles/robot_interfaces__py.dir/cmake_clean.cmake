@@ -7,6 +7,9 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/robot_interfaces/msg/_turtle_array.py"
   "../rosidl_generator_py/robot_interfaces/msg/_turtle_array_s.c"
   "../rosidl_generator_py/robot_interfaces/msg/_turtle_s.c"
+  "../rosidl_generator_py/robot_interfaces/srv/__init__.py"
+  "../rosidl_generator_py/robot_interfaces/srv/_catch_turtle.py"
+  "../rosidl_generator_py/robot_interfaces/srv/_catch_turtle_s.c"
   "CMakeFiles/robot_interfaces__py"
 )
 

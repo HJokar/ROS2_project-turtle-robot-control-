@@ -71,9 +71,12 @@ robot_interfaces__py/CMakeFiles/robot_interfaces__py: rosidl_generator_py/robot_
 robot_interfaces__py/CMakeFiles/robot_interfaces__py: rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
 robot_interfaces__py/CMakeFiles/robot_interfaces__py: rosidl_generator_py/robot_interfaces/msg/_turtle.py
 robot_interfaces__py/CMakeFiles/robot_interfaces__py: rosidl_generator_py/robot_interfaces/msg/_turtle_array.py
+robot_interfaces__py/CMakeFiles/robot_interfaces__py: rosidl_generator_py/robot_interfaces/srv/_catch_turtle.py
 robot_interfaces__py/CMakeFiles/robot_interfaces__py: rosidl_generator_py/robot_interfaces/msg/__init__.py
+robot_interfaces__py/CMakeFiles/robot_interfaces__py: rosidl_generator_py/robot_interfaces/srv/__init__.py
 robot_interfaces__py/CMakeFiles/robot_interfaces__py: rosidl_generator_py/robot_interfaces/msg/_turtle_s.c
 robot_interfaces__py/CMakeFiles/robot_interfaces__py: rosidl_generator_py/robot_interfaces/msg/_turtle_array_s.c
+robot_interfaces__py/CMakeFiles/robot_interfaces__py: rosidl_generator_py/robot_interfaces/srv/_catch_turtle_s.c
 
 rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -90,6 +93,7 @@ rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_f
 rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/robot_interfaces/msg/Turtle.idl
 rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/robot_interfaces/msg/TurtleArray.idl
+rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/robot_interfaces/srv/CatchTurtle.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/heybat/Desktop/miniproject/build/robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/heybat/Desktop/miniproject/build/robot_interfaces/robot_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -105,14 +109,23 @@ rosidl_generator_py/robot_interfaces/msg/_turtle.py: rosidl_generator_py/robot_i
 rosidl_generator_py/robot_interfaces/msg/_turtle_array.py: rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_interfaces/msg/_turtle_array.py
 
+rosidl_generator_py/robot_interfaces/srv/_catch_turtle.py: rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_interfaces/srv/_catch_turtle.py
+
 rosidl_generator_py/robot_interfaces/msg/__init__.py: rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_interfaces/msg/__init__.py
+
+rosidl_generator_py/robot_interfaces/srv/__init__.py: rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_interfaces/srv/__init__.py
 
 rosidl_generator_py/robot_interfaces/msg/_turtle_s.c: rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_interfaces/msg/_turtle_s.c
 
 rosidl_generator_py/robot_interfaces/msg/_turtle_array_s.c: rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_interfaces/msg/_turtle_array_s.c
+
+rosidl_generator_py/robot_interfaces/srv/_catch_turtle_s.c: rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/robot_interfaces/srv/_catch_turtle_s.c
 
 robot_interfaces__py: robot_interfaces__py/CMakeFiles/robot_interfaces__py
 robot_interfaces__py: rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
@@ -123,6 +136,9 @@ robot_interfaces__py: rosidl_generator_py/robot_interfaces/msg/_turtle.py
 robot_interfaces__py: rosidl_generator_py/robot_interfaces/msg/_turtle_array.py
 robot_interfaces__py: rosidl_generator_py/robot_interfaces/msg/_turtle_array_s.c
 robot_interfaces__py: rosidl_generator_py/robot_interfaces/msg/_turtle_s.c
+robot_interfaces__py: rosidl_generator_py/robot_interfaces/srv/__init__.py
+robot_interfaces__py: rosidl_generator_py/robot_interfaces/srv/_catch_turtle.py
+robot_interfaces__py: rosidl_generator_py/robot_interfaces/srv/_catch_turtle_s.c
 robot_interfaces__py: robot_interfaces__py/CMakeFiles/robot_interfaces__py.dir/build.make
 .PHONY : robot_interfaces__py
 

@@ -249,8 +249,15 @@ CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gen
   rosidl_generator_c/robot_interfaces/msg/detail/turtle__functions.h \
   rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__type_support.h \
   rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__struct.h \
-  rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__functions.h
+  rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__functions.h \
+  rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__type_support.h \
+  rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__struct.h \
+  rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.h
 
+
+rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__struct.h:
+
+rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__type_support.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
@@ -391,6 +398,8 @@ rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__type_support.h:
 /usr/include/python3.10/osmodule.h:
 
 /usr/include/aarch64-linux-gnu/bits/waitstatus.h:
+
+rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h:
 

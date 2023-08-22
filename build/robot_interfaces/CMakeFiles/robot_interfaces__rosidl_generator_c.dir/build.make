@@ -84,6 +84,7 @@ rosidl_generator_c/robot_interfaces/msg/turtle.h: /opt/ros/humble/share/rosidl_g
 rosidl_generator_c/robot_interfaces/msg/turtle.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/robot_interfaces/msg/turtle.h: rosidl_adapter/robot_interfaces/msg/Turtle.idl
 rosidl_generator_c/robot_interfaces/msg/turtle.h: rosidl_adapter/robot_interfaces/msg/TurtleArray.idl
+rosidl_generator_c/robot_interfaces/msg/turtle.h: rosidl_adapter/robot_interfaces/srv/CatchTurtle.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/heybat/Desktop/miniproject/build/robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_c__arguments.json
 
@@ -108,11 +109,26 @@ rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__struct.h: rosidl_ge
 rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__type_support.h: rosidl_generator_c/robot_interfaces/msg/turtle.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__type_support.h
 
+rosidl_generator_c/robot_interfaces/srv/catch_turtle.h: rosidl_generator_c/robot_interfaces/msg/turtle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_interfaces/srv/catch_turtle.h
+
+rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.h: rosidl_generator_c/robot_interfaces/msg/turtle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.h
+
+rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__struct.h: rosidl_generator_c/robot_interfaces/msg/turtle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__struct.h
+
+rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__type_support.h: rosidl_generator_c/robot_interfaces/msg/turtle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__type_support.h
+
 rosidl_generator_c/robot_interfaces/msg/detail/turtle__functions.c: rosidl_generator_c/robot_interfaces/msg/turtle.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_interfaces/msg/detail/turtle__functions.c
 
 rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__functions.c: rosidl_generator_c/robot_interfaces/msg/turtle.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__functions.c
+
+rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c: rosidl_generator_c/robot_interfaces/msg/turtle.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c
 
 CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/turtle__functions.c.o: CMakeFiles/robot_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/turtle__functions.c.o: rosidl_generator_c/robot_interfaces/msg/detail/turtle__functions.c
@@ -142,21 +158,37 @@ CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_int
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__functions.c -o CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__functions.c.s
 
+CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.o: CMakeFiles/robot_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.o: rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c
+CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.o: CMakeFiles/robot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/heybat/Desktop/miniproject/build/robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.o -MF CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.o.d -o CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.o -c /home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c
+
+CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c > CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.i
+
+CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/heybat/Desktop/miniproject/build/robot_interfaces/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c -o CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.s
+
 # Object files for target robot_interfaces__rosidl_generator_c
 robot_interfaces__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/turtle__functions.c.o" \
-"CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__functions.c.o"
+"CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__functions.c.o" \
+"CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.o"
 
 # External object files for target robot_interfaces__rosidl_generator_c
 robot_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 librobot_interfaces__rosidl_generator_c.so: CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/turtle__functions.c.o
 librobot_interfaces__rosidl_generator_c.so: CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__functions.c.o
+librobot_interfaces__rosidl_generator_c.so: CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c.o
 librobot_interfaces__rosidl_generator_c.so: CMakeFiles/robot_interfaces__rosidl_generator_c.dir/build.make
 librobot_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 librobot_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 librobot_interfaces__rosidl_generator_c.so: CMakeFiles/robot_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/heybat/Desktop/miniproject/build/robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library librobot_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/heybat/Desktop/miniproject/build/robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library librobot_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/robot_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -177,6 +209,11 @@ CMakeFiles/robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/r
 CMakeFiles/robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_interfaces/msg/detail/turtle_array__type_support.h
 CMakeFiles/robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_interfaces/msg/turtle.h
 CMakeFiles/robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_interfaces/msg/turtle_array.h
+CMakeFiles/robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_interfaces/srv/catch_turtle.h
+CMakeFiles/robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.c
+CMakeFiles/robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__functions.h
+CMakeFiles/robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__struct.h
+CMakeFiles/robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/robot_interfaces/srv/detail/catch_turtle__type_support.h
 	cd /home/heybat/Desktop/miniproject/build/robot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/heybat/Desktop/miniproject/src/robot_interfaces /home/heybat/Desktop/miniproject/src/robot_interfaces /home/heybat/Desktop/miniproject/build/robot_interfaces /home/heybat/Desktop/miniproject/build/robot_interfaces /home/heybat/Desktop/miniproject/build/robot_interfaces/CMakeFiles/robot_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_interfaces__rosidl_generator_c.dir/depend
 

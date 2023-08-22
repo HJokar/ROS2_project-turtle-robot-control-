@@ -5,6 +5,10 @@ from turtlesim.msg import Pose
 from geometry_msgs.msg import Twist
 from robot_interfaces.msg import Turtle
 from robot_interfaces.msg import TurtleArray
+from robot_interfaces.srv import CatchTurtle
+from functools import partial
+
+
 import math as math
 
 class turtle_controllerNode(Node): 
@@ -33,6 +37,33 @@ class turtle_controllerNode(Node):
         #self.get_logger().info('x='+str(msg.x))
         self.Pose_=msg
     
+    def call_Catch_turtle_server(self,name):
+        client_=self.create_client(CatchTurtle,'catch_turtle')
+
+        while not client_.wait_for_service(1.0):
+            self.get_logger().warn("waiting for the service ...")
+        
+        request=CatchTurtle.Request()
+        
+  
+        request.name=name
+
+        future =client_.call_async(request)
+        future.add_done_callback(partial(self.callback_call_Catch_turtle,name=name))
+
+    def callback_call_Catch_turtle(self, future,name):
+        try:
+            response = future.result()
+            if not response.sucess:
+                self.get_logger().error(f"the turtle with name {name} can not be caught")
+            
+
+
+        except Exception as e:
+            self.get_logger().error("Service call failed %r" % (e,))
+
+
+    
 
 
     def Controller(self):
@@ -45,6 +76,12 @@ class turtle_controllerNode(Node):
         distance=math.sqrt(errx**2+erry**2)
         goal_ang=math.atan2(erry,errx)
         errtheta=goal_ang-self.Pose_.theta
+        
+        if errtheta>math.pi:
+            errtheta-=2*math.pi
+        elif errtheta<-math.pi:
+            errtheta+=2*math.pi
+
         if distance>0.5:
 
             msg.linear.x=distance*2
@@ -54,6 +91,8 @@ class turtle_controllerNode(Node):
             msg.linear.x=0.0
     
             msg.angular.z=0.0
+            self.call_Catch_turtle_server(self.turtle_to_catch.name)
+            self.turtle_to_catch=None
 
 
 

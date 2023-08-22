@@ -68,6 +68,9 @@ include CMakeFiles/robot_interfaces.dir/progress.make
 
 CMakeFiles/robot_interfaces: /home/heybat/Desktop/miniproject/src/robot_interfaces/msg/Turtle.msg
 CMakeFiles/robot_interfaces: /home/heybat/Desktop/miniproject/src/robot_interfaces/msg/TurtleArray.msg
+CMakeFiles/robot_interfaces: /home/heybat/Desktop/miniproject/src/robot_interfaces/srv/CatchTurtle.srv
+CMakeFiles/robot_interfaces: rosidl_cmake/srv/CatchTurtle_Request.msg
+CMakeFiles/robot_interfaces: rosidl_cmake/srv/CatchTurtle_Response.msg
 
 robot_interfaces: CMakeFiles/robot_interfaces
 robot_interfaces: CMakeFiles/robot_interfaces.dir/build.make
